@@ -1,7 +1,7 @@
 import torch
-from .base import DeepDetector
-from ..nn import DOMINANTBase
-from ..nn.ckgconv_layer import CKGraphConvLayer  
+from .models.pygod.pygod.detector.base import DeepDetector
+from .models.pygod.pygod.nn import DOMINANTBase
+from .models.pygod.pygod.nn.ckgconv_layer import CKGraphConvLayer  
 
 
 class DOMINANT(DeepDetector):

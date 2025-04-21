@@ -4,8 +4,8 @@ import torch.nn as nn
 from torch_geometric.nn import GCN
 from torch_geometric.utils import to_dense_adj
 
-from .decoder import DotProductDecoder
-from .functional import double_recon_loss
+from .models.pygod.pygod.nn.decoder import DotProductDecoder
+from .models.pygod.pygod.nn.functional import double_recon_loss
 
 
 class DOMINANTBase(nn.Module):
