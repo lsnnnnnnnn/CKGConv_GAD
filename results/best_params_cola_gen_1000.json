@@ -1,0 +1,8 @@
+{
+  "hid_dim": 64,
+  "num_layers": 2,
+  "dropout": 0.3767857266343199,
+  "lr": 0.0007150026433082566,
+  "weight_decay": 0.009271276444142093,
+  "activation": "relu"
+}

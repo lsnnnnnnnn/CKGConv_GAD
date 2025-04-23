@@ -1,0 +1,164 @@
+2025-04-23 12:35:12,967 | dominant | INFO || [GPU MEM CHECK] Free memory per GPU: [20660, 22853, 22295, 24108, 24108, 24108, 24108, 24108]
+2025-04-23 12:35:13,391 | dominant | INFO || [INFO] Using GPU 3 with 24108 MB free.
+2025-04-23 12:35:13,393 | dominant | INFO || Running DOMINANT on books...
+2025-04-23 12:35:22,820 | dominant | INFO || Best params for DOMINANT on books: {'hid_dim': 128, 'num_layers': 5, 'dropout': 0.06301443832470005, 'lr': 0.0027242054402901628, 'weight': 0.7001027993553233}
+2025-04-23 12:35:49,536 | dominant | INFO || Summary for DOMINANT on books:
+2025-04-23 12:35:49,537 | dominant | INFO || AUC-ROC (mean±std): 0.4769 ± 0.0360
+2025-04-23 12:35:49,538 | dominant | INFO || AP (mean±std): 0.0244 ± 0.0104
+2025-04-23 12:35:49,538 | dominant | INFO || F1 (mean±std): 0.0235 ± 0.0166
+2025-04-23 12:35:49,539 | dominant | INFO || Mean ± Std (DOMINANT on books):
+2025-04-23 12:35:49,540 | dominant | INFO || AUC-ROC (mean±std): 0.4769 ± 0.0360
+2025-04-23 12:35:49,540 | dominant | INFO || AP (mean±std): 0.0244 ± 0.0104
+2025-04-23 12:35:49,540 | dominant | INFO || F1 (mean±std): 0.0235 ± 0.0166
+2025-04-23 12:35:49,541 | dominant | INFO || Running DOMINANT on disney...
+2025-04-23 12:35:55,279 | dominant | INFO || Best params for DOMINANT on disney: {'hid_dim': 32, 'num_layers': 5, 'dropout': 0.2219859841942718, 'lr': 0.0037814133558037055, 'weight': 0.7132597566481722}
+2025-04-23 12:36:14,463 | dominant | INFO || Summary for DOMINANT on disney:
+2025-04-23 12:36:14,464 | dominant | INFO || AUC-ROC (mean±std): 0.4018 ± 0.0908
+2025-04-23 12:36:14,464 | dominant | INFO || AP (mean±std): 0.0476 ± 0.0088
+2025-04-23 12:36:14,465 | dominant | INFO || F1 (mean±std): 0.0211 ± 0.0421
+2025-04-23 12:36:14,466 | dominant | INFO || Mean ± Std (DOMINANT on disney):
+2025-04-23 12:36:14,466 | dominant | INFO || AUC-ROC (mean±std): 0.4018 ± 0.0908
+2025-04-23 12:36:14,467 | dominant | INFO || AP (mean±std): 0.0476 ± 0.0088
+2025-04-23 12:36:14,467 | dominant | INFO || F1 (mean±std): 0.0211 ± 0.0421
+2025-04-23 12:36:14,467 | dominant | INFO || Running DOMINANT on gen_500...
+2025-04-23 12:36:21,051 | dominant | INFO || Best params for DOMINANT on gen_500: {'hid_dim': 32, 'num_layers': 6, 'dropout': 0.3816614014832225, 'lr': 0.0022389170767627025, 'weight': 0.7625378880304078}
+2025-04-23 12:36:41,330 | dominant | INFO || Summary for DOMINANT on gen_500:
+2025-04-23 12:36:41,331 | dominant | INFO || AUC-ROC (mean±std): 0.7915 ± 0.0042
+2025-04-23 12:36:41,331 | dominant | INFO || AP (mean±std): 0.5179 ± 0.0023
+2025-04-23 12:36:41,331 | dominant | INFO || F1 (mean±std): 0.3143 ± 0.0000
+2025-04-23 12:36:41,332 | dominant | INFO || Mean ± Std (DOMINANT on gen_500):
+2025-04-23 12:36:41,332 | dominant | INFO || AUC-ROC (mean±std): 0.7915 ± 0.0042
+2025-04-23 12:36:41,333 | dominant | INFO || AP (mean±std): 0.5179 ± 0.0023
+2025-04-23 12:36:41,333 | dominant | INFO || F1 (mean±std): 0.3143 ± 0.0000
+2025-04-23 12:36:41,334 | dominant | INFO || Running DOMINANT on gen_1000...
+2025-04-23 12:36:47,759 | dominant | INFO || Best params for DOMINANT on gen_1000: {'hid_dim': 128, 'num_layers': 3, 'dropout': 0.4268429606808707, 'lr': 0.009377037844727773, 'weight': 0.6599584520962213}
+2025-04-23 12:37:03,880 | dominant | INFO || Summary for DOMINANT on gen_1000:
+2025-04-23 12:37:03,881 | dominant | INFO || AUC-ROC (mean±std): 0.7344 ± 0.0010
+2025-04-23 12:37:03,881 | dominant | INFO || AP (mean±std): 0.4113 ± 0.0048
+2025-04-23 12:37:03,881 | dominant | INFO || F1 (mean±std): 0.1833 ± 0.0000
+2025-04-23 12:37:03,882 | dominant | INFO || Mean ± Std (DOMINANT on gen_1000):
+2025-04-23 12:37:03,882 | dominant | INFO || AUC-ROC (mean±std): 0.7344 ± 0.0010
+2025-04-23 12:37:03,883 | dominant | INFO || AP (mean±std): 0.4113 ± 0.0048
+2025-04-23 12:37:03,883 | dominant | INFO || F1 (mean±std): 0.1833 ± 0.0000
+2025-04-23 12:37:03,883 | dominant | INFO || Running DOMINANT on gen_time...
+2025-04-23 12:37:10,178 | dominant | INFO || Best params for DOMINANT on gen_time: {'hid_dim': 128, 'num_layers': 3, 'dropout': 0.3739376933356415, 'lr': 0.0009273296724884891, 'weight': 0.8151742851101761}
+2025-04-23 12:37:26,895 | dominant | INFO || Summary for DOMINANT on gen_time:
+2025-04-23 12:37:26,896 | dominant | INFO || AUC-ROC (mean±std): 0.7643 ± 0.0001
+2025-04-23 12:37:26,896 | dominant | INFO || AP (mean±std): 0.6880 ± 0.0002
+2025-04-23 12:37:26,897 | dominant | INFO || F1 (mean±std): 0.6574 ± 0.0000
+2025-04-23 12:37:26,897 | dominant | INFO || Mean ± Std (DOMINANT on gen_time):
+2025-04-23 12:37:26,898 | dominant | INFO || AUC-ROC (mean±std): 0.7643 ± 0.0001
+2025-04-23 12:37:26,898 | dominant | INFO || AP (mean±std): 0.6880 ± 0.0002
+2025-04-23 12:37:26,899 | dominant | INFO || F1 (mean±std): 0.6574 ± 0.0000
+2025-04-23 12:37:34,768 | cola | INFO || [GPU MEM CHECK] Free memory per GPU: [20155, 22853, 22295, 23598, 24108, 24108, 24108, 24108]
+2025-04-23 12:37:34,916 | cola | INFO || [INFO] Using GPU 4 with 24108 MB free.
+2025-04-23 12:37:34,918 | cola | INFO || Running CoLA on books...
+2025-04-23 12:37:40,344 | cola | INFO || Best params for CoLA on books: {'hid_dim': 32, 'num_layers': 3, 'dropout': 0.29439714158812585, 'lr': 0.002705847689035649, 'weight_decay': 0.007426353456456627, 'act': <function relu at 0x7fdf62d52c00>}
+2025-04-23 12:37:56,200 | cola | INFO || Summary for CoLA on books:
+2025-04-23 12:37:56,201 | cola | INFO || AUC-ROC (mean±std): 0.5203 ± 0.0424
+2025-04-23 12:37:56,202 | cola | INFO || AP (mean±std): 0.0225 ± 0.0073
+2025-04-23 12:37:56,202 | cola | INFO || F1 (mean±std): 0.0200 ± 0.0149
+2025-04-23 12:37:56,202 | cola | INFO || Mean ± Std (CoLA on books):
+2025-04-23 12:37:56,203 | cola | INFO || AUC-ROC (mean±std): 0.5203 ± 0.0424
+2025-04-23 12:37:56,203 | cola | INFO || AP (mean±std): 0.0225 ± 0.0073
+2025-04-23 12:37:56,203 | cola | INFO || F1 (mean±std): 0.0200 ± 0.0149
+2025-04-23 12:37:56,204 | cola | INFO || Running CoLA on disney...
+2025-04-23 12:38:01,025 | cola | INFO || Best params for CoLA on disney: {'hid_dim': 128, 'num_layers': 4, 'dropout': 0.46053485573802766, 'lr': 0.0010642110139574986, 'weight_decay': 0.00268162009905394, 'act': <function relu at 0x7fdf62d52c00>}
+2025-04-23 12:38:14,655 | cola | INFO || Summary for CoLA on disney:
+2025-04-23 12:38:14,656 | cola | INFO || AUC-ROC (mean±std): 0.4799 ± 0.1401
+2025-04-23 12:38:14,656 | cola | INFO || AP (mean±std): 0.0807 ± 0.0479
+2025-04-23 12:38:14,657 | cola | INFO || F1 (mean±std): 0.0737 ± 0.0947
+2025-04-23 12:38:14,658 | cola | INFO || Mean ± Std (CoLA on disney):
+2025-04-23 12:38:14,658 | cola | INFO || AUC-ROC (mean±std): 0.4799 ± 0.1401
+2025-04-23 12:38:14,658 | cola | INFO || AP (mean±std): 0.0807 ± 0.0479
+2025-04-23 12:38:14,659 | cola | INFO || F1 (mean±std): 0.0737 ± 0.0947
+2025-04-23 12:38:14,659 | cola | INFO || Running CoLA on gen_500...
+2025-04-23 12:38:19,144 | cola | INFO || Best params for CoLA on gen_500: {'hid_dim': 64, 'num_layers': 3, 'dropout': 0.4185446514334048, 'lr': 0.0001617630161602005, 'weight_decay': 0.0017307740945596934, 'act': <function elu at 0x7fdf62d52e80>}
+2025-04-23 12:38:32,328 | cola | INFO || Summary for CoLA on gen_500:
+2025-04-23 12:38:32,329 | cola | INFO || AUC-ROC (mean±std): 0.5350 ± 0.0619
+2025-04-23 12:38:32,329 | cola | INFO || AP (mean±std): 0.0758 ± 0.0358
+2025-04-23 12:38:32,330 | cola | INFO || F1 (mean±std): 0.0743 ± 0.0481
+2025-04-23 12:38:32,330 | cola | INFO || Mean ± Std (CoLA on gen_500):
+2025-04-23 12:38:32,331 | cola | INFO || AUC-ROC (mean±std): 0.5350 ± 0.0619
+2025-04-23 12:38:32,331 | cola | INFO || AP (mean±std): 0.0758 ± 0.0358
+2025-04-23 12:38:32,331 | cola | INFO || F1 (mean±std): 0.0743 ± 0.0481
+2025-04-23 12:38:32,332 | cola | INFO || Running CoLA on gen_1000...
+2025-04-23 12:38:36,579 | cola | INFO || Best params for CoLA on gen_1000: {'hid_dim': 64, 'num_layers': 2, 'dropout': 0.3767857266343199, 'lr': 0.0007150026433082566, 'weight_decay': 0.009271276444142093, 'act': <function relu at 0x7fdf62d52c00>}
+2025-04-23 12:38:48,088 | cola | INFO || Summary for CoLA on gen_1000:
+2025-04-23 12:38:48,088 | cola | INFO || AUC-ROC (mean±std): 0.5296 ± 0.0846
+2025-04-23 12:38:48,089 | cola | INFO || AP (mean±std): 0.0464 ± 0.0262
+2025-04-23 12:38:48,089 | cola | INFO || F1 (mean±std): 0.0500 ± 0.0298
+2025-04-23 12:38:48,090 | cola | INFO || Mean ± Std (CoLA on gen_1000):
+2025-04-23 12:38:48,090 | cola | INFO || AUC-ROC (mean±std): 0.5296 ± 0.0846
+2025-04-23 12:38:48,090 | cola | INFO || AP (mean±std): 0.0464 ± 0.0262
+2025-04-23 12:38:48,091 | cola | INFO || F1 (mean±std): 0.0500 ± 0.0298
+2025-04-23 12:38:48,091 | cola | INFO || Running CoLA on gen_time...
+2025-04-23 12:38:52,719 | cola | INFO || Best params for CoLA on gen_time: {'hid_dim': 64, 'num_layers': 2, 'dropout': 0.29189207791141286, 'lr': 0.002035269464056357, 'weight_decay': 0.003658312243582717, 'act': <function elu at 0x7fdf62d52e80>}
+2025-04-23 12:39:04,086 | cola | INFO || Summary for CoLA on gen_time:
+2025-04-23 12:39:04,087 | cola | INFO || AUC-ROC (mean±std): 0.4980 ± 0.0248
+2025-04-23 12:39:04,087 | cola | INFO || AP (mean±std): 0.2035 ± 0.0095
+2025-04-23 12:39:04,087 | cola | INFO || F1 (mean±std): 0.1488 ± 0.0193
+2025-04-23 12:39:04,088 | cola | INFO || Mean ± Std (CoLA on gen_time):
+2025-04-23 12:39:04,088 | cola | INFO || AUC-ROC (mean±std): 0.4980 ± 0.0248
+2025-04-23 12:39:04,088 | cola | INFO || AP (mean±std): 0.2035 ± 0.0095
+2025-04-23 12:39:04,089 | cola | INFO || F1 (mean±std): 0.1488 ± 0.0193
+2025-04-23 12:39:13,042 | ckgconv_dominant | INFO || Running CKGConv-DOMINANT on books...
+2025-04-23 12:39:13,985 | ckgconv_dominant | INFO || Best params for CKGConv-DOMINANT on books: {'hid_dim': 64, 'dropout': 0.0413931990824597, 'weight_decay': 0.0004014219720092606, 'lr': 0.0012877378919548886, 'num_layers': 6, 'num_heads': 4, 'batch_norm': False, 'ffn': False, 'ffn_ratio': 3.6360122960599006, 'n_mlp_blocks': 3, 'mlp_dropout': 0.12867664510314397, 'blur_kernel': False, 'deg_scaler': True, 'value_proj': True, 'act': <function relu at 0x7fdf62d52c00>}
+2025-04-23 12:40:14,851 | ckgconv_dominant | INFO || Summary for CKGConv-DOMINANT on books:
+2025-04-23 12:40:14,852 | ckgconv_dominant | INFO || AUC-ROC (mean±std): 0.3636 ± 0.0190
+2025-04-23 12:40:14,853 | ckgconv_dominant | INFO || AP (mean±std): 0.0150 ± 0.0009
+2025-04-23 12:40:14,853 | ckgconv_dominant | INFO || F1 (mean±std): 0.0095 ± 0.0089
+2025-04-23 12:40:14,854 | ckgconv_dominant | INFO || Running CKGConv-DOMINANT on disney...
+2025-04-23 12:40:15,669 | ckgconv_dominant | INFO || Best params for CKGConv-DOMINANT on disney: {'hid_dim': 128, 'dropout': 0.2423921154452655, 'weight_decay': 0.0002830547969610171, 'lr': 0.0002795552527101788, 'num_layers': 4, 'num_heads': 4, 'batch_norm': True, 'ffn': False, 'ffn_ratio': 1.2670896811351882, 'n_mlp_blocks': 3, 'mlp_dropout': 0.3990827894719956, 'blur_kernel': True, 'deg_scaler': True, 'value_proj': True, 'act': <function leaky_relu at 0x7fdf62d53060>}
+2025-04-23 12:41:00,485 | ckgconv_dominant | INFO || Summary for CKGConv-DOMINANT on disney:
+2025-04-23 12:41:00,486 | ckgconv_dominant | INFO || AUC-ROC (mean±std): 0.4808 ± 0.0007
+2025-04-23 12:41:00,486 | ckgconv_dominant | INFO || AP (mean±std): 0.0564 ± 0.0000
+2025-04-23 12:41:00,487 | ckgconv_dominant | INFO || F1 (mean±std): 0.0000 ± 0.0000
+2025-04-23 12:41:00,487 | ckgconv_dominant | INFO || Running CKGConv-DOMINANT on gen_500...
+2025-04-23 12:41:01,347 | ckgconv_dominant | INFO || Best params for CKGConv-DOMINANT on gen_500: {'hid_dim': 64, 'dropout': 0.21877145840937595, 'weight_decay': 0.0007916561842746068, 'lr': 0.0007764565994436976, 'num_layers': 6, 'num_heads': 4, 'batch_norm': False, 'ffn': True, 'ffn_ratio': 1.7328361658779472, 'n_mlp_blocks': 3, 'mlp_dropout': 0.004943441993203734, 'blur_kernel': False, 'deg_scaler': False, 'value_proj': True, 'act': <function leaky_relu at 0x7fdf62d53060>}
+2025-04-23 12:44:11,022 | ckgconv_dominant | INFO || Summary for CKGConv-DOMINANT on gen_500:
+2025-04-23 12:44:11,022 | ckgconv_dominant | INFO || AUC-ROC (mean±std): 0.7890 ± 0.0074
+2025-04-23 12:44:11,023 | ckgconv_dominant | INFO || AP (mean±std): 0.5204 ± 0.0074
+2025-04-23 12:44:11,023 | ckgconv_dominant | INFO || F1 (mean±std): 0.3143 ± 0.0000
+2025-04-23 12:44:11,024 | ckgconv_dominant | INFO || Running CKGConv-DOMINANT on gen_1000...
+2025-04-23 12:44:11,774 | ckgconv_dominant | INFO || Best params for CKGConv-DOMINANT on gen_1000: {'hid_dim': 64, 'dropout': 0.23073891196817392, 'weight_decay': 0.0006802628461005462, 'lr': 0.0002513888241093796, 'num_layers': 4, 'num_heads': 8, 'batch_norm': True, 'ffn': True, 'ffn_ratio': 1.53335432205639, 'n_mlp_blocks': 2, 'mlp_dropout': 0.48144944031969417, 'blur_kernel': True, 'deg_scaler': True, 'value_proj': True, 'act': <function leaky_relu at 0x7fdf62d53060>}
+2025-04-23 12:49:59,661 | ckgconv_dominant | INFO || Summary for CKGConv-DOMINANT on gen_1000:
+2025-04-23 12:49:59,662 | ckgconv_dominant | INFO || AUC-ROC (mean±std): 0.7144 ± 0.0228
+2025-04-23 12:49:59,663 | ckgconv_dominant | INFO || AP (mean±std): 0.1265 ± 0.0219
+2025-04-23 12:49:59,663 | ckgconv_dominant | INFO || F1 (mean±std): 0.1633 ± 0.0194
+2025-04-23 12:49:59,664 | ckgconv_dominant | INFO || Running CKGConv-DOMINANT on gen_time...
+2025-04-23 12:50:00,438 | ckgconv_dominant | INFO || Best params for CKGConv-DOMINANT on gen_time: {'hid_dim': 128, 'dropout': 0.1913070930962228, 'weight_decay': 0.000681081905632853, 'lr': 0.002921773476422433, 'num_layers': 6, 'num_heads': 8, 'batch_norm': True, 'ffn': False, 'ffn_ratio': 1.1676213495587633, 'n_mlp_blocks': 1, 'mlp_dropout': 0.05983682287336223, 'blur_kernel': True, 'deg_scaler': True, 'value_proj': True, 'act': <function relu at 0x7fdf62d52c00>}
+2025-04-23 13:00:53,540 | ckgconv_dominant | INFO || Summary for CKGConv-DOMINANT on gen_time:
+2025-04-23 13:00:53,541 | ckgconv_dominant | INFO || AUC-ROC (mean±std): 0.7591 ± 0.0013
+2025-04-23 13:00:53,541 | ckgconv_dominant | INFO || AP (mean±std): 0.6848 ± 0.0038
+2025-04-23 13:00:53,542 | ckgconv_dominant | INFO || F1 (mean±std): 0.6623 ± 0.0062
+2025-04-23 13:02:30,816 | ckgconv_cola | INFO || Running CKGConv-CoLA on books...
+2025-04-23 13:02:31,569 | ckgconv_cola | INFO || Best params for CKGConv-CoLA on books: {'hid_dim': 128, 'dropout': 0.4536284175026945, 'weight_decay': 0.00021039584817988922, 'lr': 0.00024216278954982337, 'num_layers': 2, 'num_heads': 2, 'batch_norm': True, 'ffn': True, 'ffn_ratio': 3.8126324524332764, 'n_mlp_blocks': 3, 'mlp_dropout': 0.4109391389190333, 'blur_kernel': False, 'deg_scaler': False, 'value_proj': True, 'act': <function elu at 0x7fdf62d52e80>}
+2025-04-23 13:03:11,609 | ckgconv_cola | INFO || Summary for CKGConv-CoLA on books:
+2025-04-23 13:03:11,610 | ckgconv_cola | INFO || AUC-ROC (mean±std): 0.5380 ± 0.0478
+2025-04-23 13:03:11,610 | ckgconv_cola | INFO || AP (mean±std): 0.0245 ± 0.0048
+2025-04-23 13:03:11,611 | ckgconv_cola | INFO || F1 (mean±std): 0.0318 ± 0.0106
+2025-04-23 13:03:11,611 | ckgconv_cola | INFO || Running CKGConv-CoLA on disney...
+2025-04-23 13:03:12,300 | ckgconv_cola | INFO || Best params for CKGConv-CoLA on disney: {'hid_dim': 128, 'dropout': 0.23748131716901677, 'weight_decay': 0.0008472200212319673, 'lr': 0.0014478766663165534, 'num_layers': 3, 'num_heads': 4, 'batch_norm': True, 'ffn': True, 'ffn_ratio': 3.066579807470066, 'n_mlp_blocks': 2, 'mlp_dropout': 0.280675107425361, 'blur_kernel': True, 'deg_scaler': True, 'value_proj': True, 'act': <function elu at 0x7fdf62d52e80>}
+2025-04-23 13:03:59,408 | ckgconv_cola | INFO || Summary for CKGConv-CoLA on disney:
+2025-04-23 13:03:59,409 | ckgconv_cola | INFO || AUC-ROC (mean±std): 0.4952 ± 0.1013
+2025-04-23 13:03:59,409 | ckgconv_cola | INFO || AP (mean±std): 0.0634 ± 0.0236
+2025-04-23 13:03:59,410 | ckgconv_cola | INFO || F1 (mean±std): 0.0421 ± 0.0698
+2025-04-23 13:03:59,410 | ckgconv_cola | INFO || Running CKGConv-CoLA on gen_500...
+2025-04-23 13:04:00,092 | ckgconv_cola | INFO || Best params for CKGConv-CoLA on gen_500: {'hid_dim': 128, 'dropout': 0.3143670668032321, 'weight_decay': 0.00044799088829998023, 'lr': 0.002293495878660401, 'num_layers': 2, 'num_heads': 4, 'batch_norm': True, 'ffn': False, 'ffn_ratio': 1.3252125548020675, 'n_mlp_blocks': 2, 'mlp_dropout': 0.29646119252452907, 'blur_kernel': False, 'deg_scaler': False, 'value_proj': True, 'act': <function elu at 0x7fdf62d52e80>}
+2025-04-23 13:06:56,671 | ckgconv_cola | INFO || Summary for CKGConv-CoLA on gen_500:
+2025-04-23 13:06:56,671 | ckgconv_cola | INFO || AUC-ROC (mean±std): 0.5124 ± 0.0655
+2025-04-23 13:06:56,672 | ckgconv_cola | INFO || AP (mean±std): 0.0493 ± 0.0111
+2025-04-23 13:06:56,672 | ckgconv_cola | INFO || F1 (mean±std): 0.0571 ± 0.0478
+2025-04-23 13:06:56,673 | ckgconv_cola | INFO || Running CKGConv-CoLA on gen_1000...
+2025-04-23 13:06:57,403 | ckgconv_cola | INFO || Best params for CKGConv-CoLA on gen_1000: {'hid_dim': 64, 'dropout': 0.3869924325241862, 'weight_decay': 0.00035535475656259995, 'lr': 0.0006096014282970674, 'num_layers': 3, 'num_heads': 2, 'batch_norm': True, 'ffn': True, 'ffn_ratio': 2.6022450783634907, 'n_mlp_blocks': 3, 'mlp_dropout': 0.35660655698898347, 'blur_kernel': True, 'deg_scaler': True, 'value_proj': True, 'act': <function leaky_relu at 0x7fdf62d53060>}
+2025-04-23 13:21:56,250 | ckgconv_cola | INFO || Summary for CKGConv-CoLA on gen_1000:
+2025-04-23 13:21:56,250 | ckgconv_cola | INFO || AUC-ROC (mean±std): 0.5026 ± 0.0874
+2025-04-23 13:21:56,251 | ckgconv_cola | INFO || AP (mean±std): 0.0244 ± 0.0072
+2025-04-23 13:21:56,252 | ckgconv_cola | INFO || F1 (mean±std): 0.0317 ± 0.0203
+2025-04-23 13:21:56,253 | ckgconv_cola | INFO || Running CKGConv-CoLA on gen_time...
+2025-04-23 13:21:56,995 | ckgconv_cola | INFO || Best params for CKGConv-CoLA on gen_time: {'hid_dim': 128, 'dropout': 0.3758360418306889, 'weight_decay': 2.407745834326902e-06, 'lr': 0.00030418016263543694, 'num_layers': 4, 'num_heads': 2, 'batch_norm': False, 'ffn': False, 'ffn_ratio': 1.4863493897956077, 'n_mlp_blocks': 2, 'mlp_dropout': 0.32021681878099006, 'blur_kernel': True, 'deg_scaler': True, 'value_proj': True, 'act': <function elu at 0x7fdf62d52e80>}
+2025-04-23 13:45:30,957 | ckgconv_cola | INFO || Summary for CKGConv-CoLA on gen_time:
+2025-04-23 13:45:30,958 | ckgconv_cola | INFO || AUC-ROC (mean±std): 0.5025 ± 0.0168
+2025-04-23 13:45:30,959 | ckgconv_cola | INFO || AP (mean±std): 0.1933 ± 0.0089
+2025-04-23 13:45:30,959 | ckgconv_cola | INFO || F1 (mean±std): 0.1349 ± 0.0232

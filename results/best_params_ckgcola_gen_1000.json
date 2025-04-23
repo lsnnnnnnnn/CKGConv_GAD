@@ -1,0 +1,17 @@
+{
+  "hid_dim": 64,
+  "dropout": 0.3869924325241862,
+  "weight_decay": 0.00035535475656259995,
+  "lr": 0.0006096014282970674,
+  "activation": "leaky_relu",
+  "num_layers": 3,
+  "num_heads": 2,
+  "batch_norm": true,
+  "ffn": true,
+  "ffn_ratio": 2.6022450783634907,
+  "n_mlp_blocks": 3,
+  "mlp_dropout": 0.35660655698898347,
+  "blur_kernel": true,
+  "deg_scaler": true,
+  "value_proj": true
+}

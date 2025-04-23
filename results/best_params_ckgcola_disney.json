@@ -1,0 +1,17 @@
+{
+  "hid_dim": 128,
+  "dropout": 0.23748131716901677,
+  "weight_decay": 0.0008472200212319673,
+  "lr": 0.0014478766663165534,
+  "activation": "elu",
+  "num_layers": 3,
+  "num_heads": 4,
+  "batch_norm": true,
+  "ffn": true,
+  "ffn_ratio": 3.066579807470066,
+  "n_mlp_blocks": 2,
+  "mlp_dropout": 0.280675107425361,
+  "blur_kernel": true,
+  "deg_scaler": true,
+  "value_proj": true
+}

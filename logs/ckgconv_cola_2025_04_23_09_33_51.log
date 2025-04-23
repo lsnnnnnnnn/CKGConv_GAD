@@ -1,0 +1,15 @@
+2025-04-23 09:33:51,937 | ckgconv_cola | INFO || Running CKGConv-CoLA on books...
+2025-04-23 09:33:53,040 | ckgconv_cola | INFO || Best params for CKGConv-CoLA on books: {'hid_dim': 64, 'dropout': 0.09435552001239328, 'weight_decay': 0.0009435412381173344, 'lr': 0.0007480607097586054, 'num_layers': 2, 'num_heads': 4, 'batch_norm': True, 'ffn': False, 'ffn_ratio': 1.6338655016609573, 'n_mlp_blocks': 1, 'mlp_dropout': 0.019286709823497006, 'blur_kernel': False, 'deg_scaler': False, 'value_proj': True, 'act': <function leaky_relu at 0x7f6dd7d7b060>}
+2025-04-23 09:34:27,929 | ckgconv_cola | INFO || Summary for CKGConv-CoLA on books:
+2025-04-23 09:37:41,418 | ckgconv_cola | INFO || Running CKGConv-CoLA on books...
+2025-04-23 09:37:42,326 | ckgconv_cola | INFO || Best params for CKGConv-CoLA on books: {'hid_dim': 128, 'dropout': 0.4229060580208138, 'weight_decay': 9.403726131960599e-05, 'lr': 0.002103112391725789, 'num_layers': 2, 'num_heads': 4, 'batch_norm': True, 'ffn': True, 'ffn_ratio': 1.3250317233134998, 'n_mlp_blocks': 3, 'mlp_dropout': 0.09873521897916149, 'blur_kernel': False, 'deg_scaler': True, 'value_proj': True, 'act': <function relu at 0x7f6dd7d7ac00>}
+2025-04-23 09:38:21,566 | ckgconv_cola | INFO || Summary for CKGConv-CoLA on books:
+2025-04-23 09:38:21,567 | ckgconv_cola | INFO || AUC-ROC (mean±std): 0.5499 ± 0.0663
+2025-04-23 09:38:21,567 | ckgconv_cola | INFO || AP (mean±std): 0.0288 ± 0.0088
+2025-04-23 09:38:21,567 | ckgconv_cola | INFO || F1 (mean±std): 0.0388 ± 0.0140
+2025-04-23 09:38:21,568 | ckgconv_cola | INFO || Running CKGConv-CoLA on gen_500...
+2025-04-23 09:38:22,404 | ckgconv_cola | INFO || Best params for CKGConv-CoLA on gen_500: {'hid_dim': 128, 'dropout': 0.3081357054469781, 'weight_decay': 6.484844132283274e-05, 'lr': 0.0003666279664401882, 'num_layers': 4, 'num_heads': 2, 'batch_norm': False, 'ffn': True, 'ffn_ratio': 2.6448636021472334, 'n_mlp_blocks': 1, 'mlp_dropout': 0.21967184446260046, 'blur_kernel': False, 'deg_scaler': True, 'value_proj': True, 'act': <function elu at 0x7f6dd7d7ae80>}
+2025-04-23 09:43:53,900 | ckgconv_cola | INFO || Summary for CKGConv-CoLA on gen_500:
+2025-04-23 09:43:53,900 | ckgconv_cola | INFO || AUC-ROC (mean±std): 0.5017 ± 0.0444
+2025-04-23 09:43:53,901 | ckgconv_cola | INFO || AP (mean±std): 0.0472 ± 0.0058
+2025-04-23 09:43:53,902 | ckgconv_cola | INFO || F1 (mean±std): 0.0457 ± 0.0262
