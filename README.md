@@ -52,11 +52,9 @@ The original CKGConv paper:
   year={2024},
   url={https://arxiv.org/abs/2404.13604}
 }
-
-
----
+```
 
 ## Acknowledgements
 
 Built upon [PyGOD](https://github.com/pygod-team/pygod) and [CKGConv](https://github.com/networkslab/CKGConv).
-```
+
