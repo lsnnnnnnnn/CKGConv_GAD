@@ -1,6 +1,6 @@
 # CKGConv-GAD: Graph Anomaly Detection with Continuous Kernel Graph Convolution
 
-This project explores the integration of **CKGConv** into unsupervised Graph Anomaly Detection (GAD) frameworks. We replace standard GCN encoders with CKGConv in state-of-the-art models like **DOMINANT** and **CoLA**, exploring performance on both real and synthetic datasets.
+**Class project of STATS 403**. This project explores the integration of **CKGConv** into unsupervised Graph Anomaly Detection (GAD) frameworks. We replace standard GCN encoders with CKGConv in state-of-the-art models like **DOMINANT** and **CoLA**, exploring performance on both real and synthetic datasets.
 
 CKGConv is a general graph convolution operator based on continuous kernels and graph positional encodings, introduced in:
 
