@@ -14,7 +14,7 @@ Install packages using `environment.yml`:
 
 ##  Experimental Results
 
-### 📊 Benchmark Results (AUC / AP / F1)
+### Benchmark Results (AUC / AP / F1)
 
 | Model            | Dataset     | AUC             | AP              | F1              |
 |------------------|-------------|------------------|------------------|------------------|
